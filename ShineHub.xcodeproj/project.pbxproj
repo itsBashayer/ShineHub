@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE1013692B3F39FD00A77FE9 /* ShineHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013682B3F39FD00A77FE9 /* ShineHubApp.swift */; };
+		FE10136B2B3F39FD00A77FE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE10136A2B3F39FD00A77FE9 /* ContentView.swift */; };
+		FE10136D2B3F39FE00A77FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE10136C2B3F39FE00A77FE9 /* Assets.xcassets */; };
+		FE1013702B3F39FE00A77FE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE10136F2B3F39FE00A77FE9 /* Preview Assets.xcassets */; };
+		FE10137A2B3F39FE00A77FE9 /* ShineHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013792B3F39FE00A77FE9 /* ShineHubTests.swift */; };
+		FE1013842B3F39FE00A77FE9 /* ShineHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013832B3F39FE00A77FE9 /* ShineHubUITests.swift */; };
+		FE1013862B3F39FE00A77FE9 /* ShineHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013852B3F39FE00A77FE9 /* ShineHubUITestsLaunchTests.swift */; };
+		FE1013932B3F3A3500A77FE9 /* AssestColor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1013922B3F3A3500A77FE9 /* AssestColor.xcassets */; };
+		FE1013952B3F3A8900A77FE9 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013942B3F3A8900A77FE9 /* StartButton.swift */; };
+		FE1013972B3F3ABD00A77FE9 /* HProuductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013962B3F3ABD00A77FE9 /* HProuductType.swift */; };
+		FE1013992B3F3AE800A77FE9 /* HairProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013982B3F3AE800A77FE9 /* HairProduct.swift */; };
+		FE10139B2B3F3B1000A77FE9 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE10139A2B3F3B1000A77FE9 /* Recommendation.swift */; };
+		FE10139D2B3F3D3600A77FE9 /* AssrstImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE10139C2B3F3D3600A77FE9 /* AssrstImage.xcassets */; };
+		FE10139F2B3F522B00A77FE9 /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE10139E2B3F522B00A77FE9 /* More.swift */; };
+		FE1013A12B3FFC6500A77FE9 /* Fortrying.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013A02B3FFC6500A77FE9 /* Fortrying.swift */; };
+		FE1013A52B413F0F00A77FE9 /* TapBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013A42B413F0F00A77FE9 /* TapBar.swift */; };
+		FE1013AB2B414F1B00A77FE9 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013AA2B414F1B00A77FE9 /* Products.swift */; };
+		FE1013AD2B414F7600A77FE9 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013AC2B414F7600A77FE9 /* Homepage.swift */; };
+		FE1013B12B41631600A77FE9 /* StartLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013B02B41631600A77FE9 /* StartLogo.swift */; };
+		FE1013B32B4163B200A77FE9 /* SmallLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013B22B4163B200A77FE9 /* SmallLogo.swift */; };
+		FE1013B52B41720400A77FE9 /* HairHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013B42B41720400A77FE9 /* HairHome.swift */; };
+		FE1013B72B418C0500A77FE9 /* HCSH.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013B62B418C0500A77FE9 /* HCSH.swift */; };
+		FE1013B92B41A01C00A77FE9 /* HCCO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013B82B41A01C00A77FE9 /* HCCO.swift */; };
+		FE1013BB2B41A41200A77FE9 /* HCCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013BA2B41A41200A77FE9 /* HCCR.swift */; };
+		FE1013BD2B41AA7200A77FE9 /* HSSH.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013BC2B41AA7200A77FE9 /* HSSH.swift */; };
+		FE1013BF2B41B69000A77FE9 /* HSCO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013BE2B41B69000A77FE9 /* HSCO.swift */; };
+		FE1013C12B41BB2B00A77FE9 /* HOSH.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013C02B41BB2B00A77FE9 /* HOSH.swift */; };
+		FE1013C32B41C78B00A77FE9 /* HDSH.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013C22B41C78B00A77FE9 /* HDSH.swift */; };
+		FE1013C72B41CB4800A77FE9 /* HDCO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013C62B41CB4800A77FE9 /* HDCO.swift */; };
+		FE1013C92B41CCEA00A77FE9 /* HDCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013C82B41CCEA00A77FE9 /* HDCR.swift */; };
+		FE1013CB2B41DF2600A77FE9 /* SSCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013CA2B41DF2600A77FE9 /* SSCL.swift */; };
+		FE1013CD2B41E59E00A77FE9 /* SSSUN.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013CC2B41E59E00A77FE9 /* SSSUN.swift */; };
+		FE1013CF2B41EB7600A77FE9 /* SSMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013CE2B41EB7600A77FE9 /* SSMO.swift */; };
+		FE1013D12B41F86500A77FE9 /* SOCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013D02B41F86500A77FE9 /* SOCL.swift */; };
+		FE1013D32B41FCBA00A77FE9 /* SOMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013D22B41FCBA00A77FE9 /* SOMO.swift */; };
+		FE1013D72B42006300A77FE9 /* SOSUN.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013D62B42006300A77FE9 /* SOSUN.swift */; };
+		FE1013D92B4202A300A77FE9 /* SDCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1013D82B4202A300A77FE9 /* SDCL.swift */; };
+		FE1014142B42E39600A77FE9 /* SkinHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1014132B42E39600A77FE9 /* SkinHome.swift */; };
+		FE1014162B42E57500A77FE9 /* SkinProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1014152B42E57500A77FE9 /* SkinProduct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE1013762B3F39FE00A77FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE10135D2B3F39FD00A77FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1013642B3F39FD00A77FE9;
+			remoteInfo = ShineHub;
+		};
+		FE1013802B3F39FE00A77FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE10135D2B3F39FD00A77FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1013642B3F39FD00A77FE9;
+			remoteInfo = ShineHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE1013652B3F39FD00A77FE9 /* ShineHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShineHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1013682B3F39FD00A77FE9 /* ShineHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShineHubApp.swift; sourceTree = "<group>"; };
+		FE10136A2B3F39FD00A77FE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE10136C2B3F39FE00A77FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE10136F2B3F39FE00A77FE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE1013752B3F39FE00A77FE9 /* ShineHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShineHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1013792B3F39FE00A77FE9 /* ShineHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShineHubTests.swift; sourceTree = "<group>"; };
+		FE10137F2B3F39FE00A77FE9 /* ShineHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShineHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1013832B3F39FE00A77FE9 /* ShineHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShineHubUITests.swift; sourceTree = "<group>"; };
+		FE1013852B3F39FE00A77FE9 /* ShineHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShineHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE1013922B3F3A3500A77FE9 /* AssestColor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssestColor.xcassets; sourceTree = "<group>"; };
+		FE1013942B3F3A8900A77FE9 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		FE1013962B3F3ABD00A77FE9 /* HProuductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HProuductType.swift; sourceTree = "<group>"; };
+		FE1013982B3F3AE800A77FE9 /* HairProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairProduct.swift; sourceTree = "<group>"; };
+		FE10139A2B3F3B1000A77FE9 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
+		FE10139C2B3F3D3600A77FE9 /* AssrstImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssrstImage.xcassets; sourceTree = "<group>"; };
+		FE10139E2B3F522B00A77FE9 /* More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
+		FE1013A02B3FFC6500A77FE9 /* Fortrying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortrying.swift; sourceTree = "<group>"; };
+		FE1013A42B413F0F00A77FE9 /* TapBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBar.swift; sourceTree = "<group>"; };
+		FE1013AA2B414F1B00A77FE9 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		FE1013AC2B414F7600A77FE9 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		FE1013B02B41631600A77FE9 /* StartLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartLogo.swift; sourceTree = "<group>"; };
+		FE1013B22B4163B200A77FE9 /* SmallLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallLogo.swift; sourceTree = "<group>"; };
+		FE1013B42B41720400A77FE9 /* HairHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairHome.swift; sourceTree = "<group>"; };
+		FE1013B62B418C0500A77FE9 /* HCSH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCSH.swift; sourceTree = "<group>"; };
+		FE1013B82B41A01C00A77FE9 /* HCCO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCCO.swift; sourceTree = "<group>"; };
+		FE1013BA2B41A41200A77FE9 /* HCCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCCR.swift; sourceTree = "<group>"; };
+		FE1013BC2B41AA7200A77FE9 /* HSSH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSSH.swift; sourceTree = "<group>"; };
+		FE1013BE2B41B69000A77FE9 /* HSCO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSCO.swift; sourceTree = "<group>"; };
+		FE1013C02B41BB2B00A77FE9 /* HOSH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOSH.swift; sourceTree = "<group>"; };
+		FE1013C22B41C78B00A77FE9 /* HDSH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDSH.swift; sourceTree = "<group>"; };
+		FE1013C62B41CB4800A77FE9 /* HDCO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCO.swift; sourceTree = "<group>"; };
+		FE1013C82B41CCEA00A77FE9 /* HDCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCR.swift; sourceTree = "<group>"; };
+		FE1013CA2B41DF2600A77FE9 /* SSCL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSCL.swift; sourceTree = "<group>"; };
+		FE1013CC2B41E59E00A77FE9 /* SSSUN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSUN.swift; sourceTree = "<group>"; };
+		FE1013CE2B41EB7600A77FE9 /* SSMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSMO.swift; sourceTree = "<group>"; };
+		FE1013D02B41F86500A77FE9 /* SOCL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOCL.swift; sourceTree = "<group>"; };
+		FE1013D22B41FCBA00A77FE9 /* SOMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOMO.swift; sourceTree = "<group>"; };
+		FE1013D62B42006300A77FE9 /* SOSUN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSUN.swift; sourceTree = "<group>"; };
+		FE1013D82B4202A300A77FE9 /* SDCL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDCL.swift; sourceTree = "<group>"; };
+		FE1014132B42E39600A77FE9 /* SkinHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinHome.swift; sourceTree = "<group>"; };
+		FE1014152B42E57500A77FE9 /* SkinProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinProduct.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE1013622B3F39FD00A77FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1013722B3F39FE00A77FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE10137C2B3F39FE00A77FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE10135C2B3F39FD00A77FE9 = {
+			isa = PBXGroup;
+			children = (
+				FE1013672B3F39FD00A77FE9 /* ShineHub */,
+				FE1013782B3F39FE00A77FE9 /* ShineHubTests */,
+				FE1013822B3F39FE00A77FE9 /* ShineHubUITests */,
+				FE1013662B3F39FD00A77FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE1013662B3F39FD00A77FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE1013652B3F39FD00A77FE9 /* ShineHub.app */,
+				FE1013752B3F39FE00A77FE9 /* ShineHubTests.xctest */,
+				FE10137F2B3F39FE00A77FE9 /* ShineHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE1013672B3F39FD00A77FE9 /* ShineHub */ = {
+			isa = PBXGroup;
+			children = (
+				FE1013682B3F39FD00A77FE9 /* ShineHubApp.swift */,
+				FE10136A2B3F39FD00A77FE9 /* ContentView.swift */,
+				FE1013AA2B414F1B00A77FE9 /* Products.swift */,
+				FE1013A42B413F0F00A77FE9 /* TapBar.swift */,
+				FE1013AC2B414F7600A77FE9 /* Homepage.swift */,
+				FE1013B42B41720400A77FE9 /* HairHome.swift */,
+				FE1013982B3F3AE800A77FE9 /* HairProduct.swift */,
+				FE1013B62B418C0500A77FE9 /* HCSH.swift */,
+				FE1014132B42E39600A77FE9 /* SkinHome.swift */,
+				FE1014152B42E57500A77FE9 /* SkinProduct.swift */,
+				FE1013D02B41F86500A77FE9 /* SOCL.swift */,
+				FE10139E2B3F522B00A77FE9 /* More.swift */,
+				FE1013A02B3FFC6500A77FE9 /* Fortrying.swift */,
+				FE1013B02B41631600A77FE9 /* StartLogo.swift */,
+				FE1013B22B4163B200A77FE9 /* SmallLogo.swift */,
+				FE1014122B42AB4E00A77FE9 /* AllProducts */,
+				FE10136C2B3F39FE00A77FE9 /* Assets.xcassets */,
+				FE10139C2B3F3D3600A77FE9 /* AssrstImage.xcassets */,
+				FE1013922B3F3A3500A77FE9 /* AssestColor.xcassets */,
+				FE10136E2B3F39FE00A77FE9 /* Preview Content */,
+			);
+			path = ShineHub;
+			sourceTree = "<group>";
+		};
+		FE10136E2B3F39FE00A77FE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE10136F2B3F39FE00A77FE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE1013782B3F39FE00A77FE9 /* ShineHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1013792B3F39FE00A77FE9 /* ShineHubTests.swift */,
+			);
+			path = ShineHubTests;
+			sourceTree = "<group>";
+		};
+		FE1013822B3F39FE00A77FE9 /* ShineHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1013832B3F39FE00A77FE9 /* ShineHubUITests.swift */,
+				FE1013852B3F39FE00A77FE9 /* ShineHubUITestsLaunchTests.swift */,
+			);
+			path = ShineHubUITests;
+			sourceTree = "<group>";
+		};
+		FE1014122B42AB4E00A77FE9 /* AllProducts */ = {
+			isa = PBXGroup;
+			children = (
+				FE1013C02B41BB2B00A77FE9 /* HOSH.swift */,
+				FE1013B82B41A01C00A77FE9 /* HCCO.swift */,
+				FE1013BC2B41AA7200A77FE9 /* HSSH.swift */,
+				FE1013BE2B41B69000A77FE9 /* HSCO.swift */,
+				FE1013C22B41C78B00A77FE9 /* HDSH.swift */,
+				FE1013C62B41CB4800A77FE9 /* HDCO.swift */,
+				FE1013C82B41CCEA00A77FE9 /* HDCR.swift */,
+				FE1013CA2B41DF2600A77FE9 /* SSCL.swift */,
+				FE1013CC2B41E59E00A77FE9 /* SSSUN.swift */,
+				FE1013CE2B41EB7600A77FE9 /* SSMO.swift */,
+				FE1013BA2B41A41200A77FE9 /* HCCR.swift */,
+				FE1013D22B41FCBA00A77FE9 /* SOMO.swift */,
+				FE1013D62B42006300A77FE9 /* SOSUN.swift */,
+				FE1013D82B4202A300A77FE9 /* SDCL.swift */,
+				FE1013942B3F3A8900A77FE9 /* StartButton.swift */,
+				FE1013962B3F3ABD00A77FE9 /* HProuductType.swift */,
+				FE10139A2B3F3B1000A77FE9 /* Recommendation.swift */,
+			);
+			path = AllProducts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE1013642B3F39FD00A77FE9 /* ShineHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1013892B3F39FE00A77FE9 /* Build configuration list for PBXNativeTarget "ShineHub" */;
+			buildPhases = (
+				FE1013612B3F39FD00A77FE9 /* Sources */,
+				FE1013622B3F39FD00A77FE9 /* Frameworks */,
+				FE1013632B3F39FD00A77FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShineHub;
+			productName = ShineHub;
+			productReference = FE1013652B3F39FD00A77FE9 /* ShineHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE1013742B3F39FE00A77FE9 /* ShineHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE10138C2B3F39FE00A77FE9 /* Build configuration list for PBXNativeTarget "ShineHubTests" */;
+			buildPhases = (
+				FE1013712B3F39FE00A77FE9 /* Sources */,
+				FE1013722B3F39FE00A77FE9 /* Frameworks */,
+				FE1013732B3F39FE00A77FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1013772B3F39FE00A77FE9 /* PBXTargetDependency */,
+			);
+			name = ShineHubTests;
+			productName = ShineHubTests;
+			productReference = FE1013752B3F39FE00A77FE9 /* ShineHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE10137E2B3F39FE00A77FE9 /* ShineHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE10138F2B3F39FE00A77FE9 /* Build configuration list for PBXNativeTarget "ShineHubUITests" */;
+			buildPhases = (
+				FE10137B2B3F39FE00A77FE9 /* Sources */,
+				FE10137C2B3F39FE00A77FE9 /* Frameworks */,
+				FE10137D2B3F39FE00A77FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1013812B3F39FE00A77FE9 /* PBXTargetDependency */,
+			);
+			name = ShineHubUITests;
+			productName = ShineHubUITests;
+			productReference = FE10137F2B3F39FE00A77FE9 /* ShineHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE10135D2B3F39FD00A77FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					FE1013642B3F39FD00A77FE9 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					FE1013742B3F39FE00A77FE9 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = FE1013642B3F39FD00A77FE9;
+					};
+					FE10137E2B3F39FE00A77FE9 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = FE1013642B3F39FD00A77FE9;
+					};
+				};
+			};
+			buildConfigurationList = FE1013602B3F39FD00A77FE9 /* Build configuration list for PBXProject "ShineHub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE10135C2B3F39FD00A77FE9;
+			productRefGroup = FE1013662B3F39FD00A77FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE1013642B3F39FD00A77FE9 /* ShineHub */,
+				FE1013742B3F39FE00A77FE9 /* ShineHubTests */,
+				FE10137E2B3F39FE00A77FE9 /* ShineHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE1013632B3F39FD00A77FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1013932B3F3A3500A77FE9 /* AssestColor.xcassets in Resources */,
+				FE1013702B3F39FE00A77FE9 /* Preview Assets.xcassets in Resources */,
+				FE10136D2B3F39FE00A77FE9 /* Assets.xcassets in Resources */,
+				FE10139D2B3F3D3600A77FE9 /* AssrstImage.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1013732B3F39FE00A77FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE10137D2B3F39FE00A77FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE1013612B3F39FD00A77FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1013B92B41A01C00A77FE9 /* HCCO.swift in Sources */,
+				FE10139B2B3F3B1000A77FE9 /* Recommendation.swift in Sources */,
+				FE1013992B3F3AE800A77FE9 /* HairProduct.swift in Sources */,
+				FE1013CF2B41EB7600A77FE9 /* SSMO.swift in Sources */,
+				FE1013C12B41BB2B00A77FE9 /* HOSH.swift in Sources */,
+				FE1013952B3F3A8900A77FE9 /* StartButton.swift in Sources */,
+				FE1013BF2B41B69000A77FE9 /* HSCO.swift in Sources */,
+				FE1013B32B4163B200A77FE9 /* SmallLogo.swift in Sources */,
+				FE1013D32B41FCBA00A77FE9 /* SOMO.swift in Sources */,
+				FE10136B2B3F39FD00A77FE9 /* ContentView.swift in Sources */,
+				FE1013D92B4202A300A77FE9 /* SDCL.swift in Sources */,
+				FE10139F2B3F522B00A77FE9 /* More.swift in Sources */,
+				FE1013AB2B414F1B00A77FE9 /* Products.swift in Sources */,
+				FE1013C72B41CB4800A77FE9 /* HDCO.swift in Sources */,
+				FE1013BB2B41A41200A77FE9 /* HCCR.swift in Sources */,
+				FE1014162B42E57500A77FE9 /* SkinProduct.swift in Sources */,
+				FE1013CD2B41E59E00A77FE9 /* SSSUN.swift in Sources */,
+				FE1013B72B418C0500A77FE9 /* HCSH.swift in Sources */,
+				FE1013CB2B41DF2600A77FE9 /* SSCL.swift in Sources */,
+				FE1013BD2B41AA7200A77FE9 /* HSSH.swift in Sources */,
+				FE1013B12B41631600A77FE9 /* StartLogo.swift in Sources */,
+				FE1013972B3F3ABD00A77FE9 /* HProuductType.swift in Sources */,
+				FE1013A52B413F0F00A77FE9 /* TapBar.swift in Sources */,
+				FE1013C92B41CCEA00A77FE9 /* HDCR.swift in Sources */,
+				FE1013C32B41C78B00A77FE9 /* HDSH.swift in Sources */,
+				FE1013A12B3FFC6500A77FE9 /* Fortrying.swift in Sources */,
+				FE1014142B42E39600A77FE9 /* SkinHome.swift in Sources */,
+				FE1013692B3F39FD00A77FE9 /* ShineHubApp.swift in Sources */,
+				FE1013AD2B414F7600A77FE9 /* Homepage.swift in Sources */,
+				FE1013D12B41F86500A77FE9 /* SOCL.swift in Sources */,
+				FE1013D72B42006300A77FE9 /* SOSUN.swift in Sources */,
+				FE1013B52B41720400A77FE9 /* HairHome.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1013712B3F39FE00A77FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE10137A2B3F39FE00A77FE9 /* ShineHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE10137B2B3F39FE00A77FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1013862B3F39FE00A77FE9 /* ShineHubUITestsLaunchTests.swift in Sources */,
+				FE1013842B3F39FE00A77FE9 /* ShineHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE1013772B3F39FE00A77FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1013642B3F39FD00A77FE9 /* ShineHub */;
+			targetProxy = FE1013762B3F39FE00A77FE9 /* PBXContainerItemProxy */;
+		};
+		FE1013812B3F39FE00A77FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1013642B3F39FD00A77FE9 /* ShineHub */;
+			targetProxy = FE1013802B3F39FE00A77FE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE1013872B3F39FE00A77FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE1013882B3F39FE00A77FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE10138A2B3F39FE00A77FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShineHub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.B6.ShineHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE10138B2B3F39FE00A77FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShineHub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.B6.ShineHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE10138D2B3F39FE00A77FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.B6.ShineHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShineHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShineHub";
+			};
+			name = Debug;
+		};
+		FE10138E2B3F39FE00A77FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.B6.ShineHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShineHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShineHub";
+			};
+			name = Release;
+		};
+		FE1013902B3F39FE00A77FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.B6.ShineHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShineHub;
+			};
+			name = Debug;
+		};
+		FE1013912B3F39FE00A77FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.B6.ShineHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShineHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE1013602B3F39FD00A77FE9 /* Build configuration list for PBXProject "ShineHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1013872B3F39FE00A77FE9 /* Debug */,
+				FE1013882B3F39FE00A77FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1013892B3F39FE00A77FE9 /* Build configuration list for PBXNativeTarget "ShineHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE10138A2B3F39FE00A77FE9 /* Debug */,
+				FE10138B2B3F39FE00A77FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE10138C2B3F39FE00A77FE9 /* Build configuration list for PBXNativeTarget "ShineHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE10138D2B3F39FE00A77FE9 /* Debug */,
+				FE10138E2B3F39FE00A77FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE10138F2B3F39FE00A77FE9 /* Build configuration list for PBXNativeTarget "ShineHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1013902B3F39FE00A77FE9 /* Debug */,
+				FE1013912B3F39FE00A77FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE10135D2B3F39FD00A77FE9 /* Project object */;
+}
